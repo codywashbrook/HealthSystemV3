@@ -15,6 +15,12 @@ namespace HealthSystemV3
         {
 
         }
+        public new void ShowStats() //overrides gamecharacter using base
+        {
+            base.ShowStats();
+            Console.WriteLine("lives: " + lives);
+        }
+
 
     }
 }

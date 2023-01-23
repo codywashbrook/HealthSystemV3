@@ -15,14 +15,13 @@ namespace HealthSystemV3
 
             // instantiate classes
             //GameCharacter gameCharacter = new GameCharacter();
-            Player player = new Player("cody");
-            Enemy enemy = new Enemy("enemy");
             Console.WriteLine();
 
             //gameCharacter.ShowStats();
             //gameCharacter.TakeDamage(5);
             //gameCharacter.ShowStats();
 
+            Player player = new Player("cody");
             player.ShowStats();
             player.TakeDamage(5);
             player.ShowStats();
@@ -31,6 +30,7 @@ namespace HealthSystemV3
 
             Console.WriteLine();
 
+            Enemy enemy = new Enemy("enemy");
             enemy.ShowStats();
             enemy.TakeDamage(5);
             enemy.ShowStats();
